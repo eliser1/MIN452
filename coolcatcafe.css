@@ -1,0 +1,88 @@
+/* STILL NEEDS TO BE RESPONSIVE */
+/* TRY TO AVOID BOOTSTRAP */
+/* ADD LOGO TO SIDEBAR? */
+
+* { 
+    font-family:'Roboto', sans-serif; 
+    margin:0 auto; 
+    text-align:center; 
+    color:white; 
+    user-select:none; }
+
+body { display:flex; }
+
+#hero-image { 
+    background-image:linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('https://images.unsplash.com/photo-1534782337394-475a9937243a?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1052&q=80');
+    height:100%;
+    width:87.5%;
+    background-position:left;
+    margin-left:0;
+    background-repeat:no-repeat;
+    background-size:cover;
+    position:relative; }
+
+#hero-text, #menu-text, #about, #adopt-content {
+    text-align:left;
+    position:absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%, -50%); }
+
+#menu-text, #adopt-content { 
+    background:rgba(255,255,255, 0.3); 
+    height:95%;
+    width:95%; }
+
+#menu, #cats { margin: 12.5% auto; }
+
+#menu-bar {
+    background-color:#E9C27F; 
+    width:12.5%; }
+
+.menu-subtitle { 
+    font-family: 'Dancing Script', cursive; 
+    font-size:4em; }
+
+body { text-shadow: 2px 2px 4px #000000;  }
+
+table {
+    border: 1px solid white;
+    margin: 10px; }
+
+td { padding:10px; }
+
+.sidebar { font-size:1.25em; }
+
+.intextlink, .sidebar { 
+    color:#352518; 
+    text-shadow:none; }
+
+.intextlink { font-weight:bold; }
+
+.sidebar:hover, .intextlink:hover {
+    color:#535a32; }
+
+.active {
+    color:white;
+    text-decoration:none; }
+
+li { 
+    padding-top:25px; 
+    padding-bottom:25px; 
+    text-align:left; }
+
+ul { 
+    list-style:none;
+    text-align:left;
+    position:absolute;
+    top:25%; }
+
+h1 {
+    font-size:5em; 
+    color:#E9C27F; }
+
+.adopt { 
+    height:250px; 
+    width:250px; }
+
+.cat-desc { margin-top:.5em; margin-bottom:.5em; }
