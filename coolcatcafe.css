@@ -33,8 +33,6 @@ body { display:flex; }
     height:95%;
     width:95%; }
 
-#menu, #cats { margin: 12.5% auto; }
-
 #menu-bar {
     background-color:#E9C27F; 
     width:12.5%; }
