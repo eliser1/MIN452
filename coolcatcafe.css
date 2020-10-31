@@ -21,7 +21,7 @@ body { display:flex; }
     background-size:cover;
     position:relative; }
 
-#hero-text, #menu-text, #about, #adopt-content {
+#hero-text, #about {
     text-align:left;
     position:absolute;
     top:50%;
